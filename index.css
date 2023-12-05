@@ -1,0 +1,50 @@
+*{margin: 0; padding: 0}
+
+main{width: 100vw; height: 100vh; position: relative;}
+
+div{
+    width: 30vw;
+    height: 30vw;
+    background-color: red;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+article{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color:white;
+    position: relative;
+}
+
+aside{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+width: 3vw;
+height: 3vw;
+border-radius: 50%;
+background-color: black;
+}
+
+article #left{
+left: 35%
+}
+
+article #right{
+right: 35%
+}
+
+h1{
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
